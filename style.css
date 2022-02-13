@@ -136,6 +136,7 @@ footer {
      }
 
      .get_link{
+        top: 85px;
         overflow-x:scroll;
      }
  }

@@ -629,7 +629,7 @@ async function lipliner(){
         
         console.log("hello eyeliner");
         var blusharr=[];
-        let blushresponse= await fetch(`http://makeup-api.herokuapp.com/api/v1/products.json?product_type=lip_liner`);
+        let blushresponse= await fetch(`https://makeup-api.herokuapp.com/api/v1/products.json?product_type=lip_liner`);
         let blushdata=await blushresponse.json();
         blushdata.forEach(element => {
             blusharr.push(element.id);
@@ -737,7 +737,7 @@ async function foundation(){
         
         console.log("hello eyeliner");
         var blusharr=[];
-        let blushresponse= await fetch(`http://makeup-api.herokuapp.com/api/v1/products.json?product_type=foundation`);
+        let blushresponse= await fetch(`https://makeup-api.herokuapp.com/api/v1/products.json?product_type=foundation`);
         let blushdata=await blushresponse.json();
         blushdata.forEach(element => {
             blusharr.push(element.id);
@@ -846,7 +846,7 @@ async function lipstick(){
         
         console.log("hello eyeliner");
         var blusharr=[];
-        let blushresponse= await fetch(`http://makeup-api.herokuapp.com/api/v1/products.json?product_type=lipstick`);
+        let blushresponse= await fetch(`https://makeup-api.herokuapp.com/api/v1/products.json?product_type=lipstick`);
         let blushdata=await blushresponse.json();
         blushdata.forEach(element => {
             blusharr.push(element.id);
